@@ -39,6 +39,18 @@ export default class Header extends PureComponent {
               Rotate Polygon
             </Link>
           </li>
+          |
+          <li style={liStyle}>
+            <Link to="/moving-circles" style={linkStyle}>
+              Moving Circles
+            </Link>
+          </li>
+          |
+          <li style={liStyle}>
+            <Link to="/canvas-practice" style={linkStyle}>
+              Canvas Practice
+            </Link>
+          </li>
         </ul>
       </div>
     );
